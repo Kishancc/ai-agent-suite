@@ -70,7 +70,25 @@ It is built for the **Rooman AI Agent Development Challenge** under the **Sales,
   - `products.csv` → columns: `product_id, name, category, subcategory, brand, price, rating, tags, description`
 
 ---
+🚀 Potential Improvements
 
+Replace TF-IDF with vector embeddings (OpenAI embeddings + FAISS / ChromaDB) for better semantic FAQ search
+
+Add user authentication and save per-user chat history and recommendations
+
+Integrate with real e-commerce / CRM systems (Shopify, custom APIs, Zendesk, etc.)
+
+Add multi-language support for FAQs and content (e.g., English + Kannada/Hindi)
+
+Deploy permanently on Hugging Face Spaces or Render for always-on demo access
+
+Add admin dashboard to view:
+
+Most frequent questions
+
+Most recommended products
+
+Social post ideas generated per campaign
 ## 📁 Project Structure
 
 ```text
