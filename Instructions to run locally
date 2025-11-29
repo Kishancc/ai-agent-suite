@@ -1,0 +1,21 @@
+# 1. Clone the repo
+git clone https://github.com/Kishancc/ai-agent-suite.git
+cd ai-agent-suite
+
+# 2. (Optional) Create virtual environment
+python -m venv venv
+# Windows: venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Set OpenAI API key
+# Linux / macOS:
+export OPENAI_API_KEY="your-api-key-here"
+# Windows PowerShell:
+setx OPENAI_API_KEY "your-api-key-here"
+
+# 5. Run the app
+python app_gradio.py
